@@ -1,6 +1,5 @@
 # 🎬 Gestionnaire de Films
 
-Projet réalisé dans le cadre du module **Projet Web React – 2024/2025**
 
 ## 📌 Objectif
 
@@ -18,7 +17,7 @@ Développer une application web complète avec React JS permettant de :
 - ⚛️ **React.js** (avec [Vite](https://vitejs.dev/))
 - 📦 **React Router** pour la gestion des routes
 - 🔗 **Axios** pour les appels API
-- 🎨 **Tailwind CSS** / CSS pour le style
+- 🎨 **CSS** CSS pour le style
 - 🌐 API utilisée : [TMDb (The Movie Database)](https://www.themoviedb.org/)
 
 ---

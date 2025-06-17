@@ -55,3 +55,14 @@ npm install
 
 # 3. Lancer l'application
 npm run dev
+
+## 🔐 Connexion à l’API TMDb
+```
+L'application utilise l’API gratuite de [The Movie Database (TMDb)](https://www.themoviedb.org/) pour récupérer la liste des films populaires.
+
+### 🔧 Requête utilisée
+
+Dans le fichier `Home.jsx`, les données sont récupérées via l’appel suivant modifiez YOURKEY par votre cle TMDb :
+
+```js
+axios.get(`https://api.themoviedb.org/3/movie/popular?api_key=YOURKEY&language=fr-FR`)

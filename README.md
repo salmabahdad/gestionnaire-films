@@ -1,12 +1,58 @@
-# React + Vite
+# 🎬 Gestionnaire de Films
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projet réalisé dans le cadre du module **Projet Web React – 2024/2025**
 
-Currently, two official plugins are available:
+## 📌 Objectif
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Développer une application web complète avec React JS permettant de :
 
-## Expanding the ESLint configuration
+- Parcourir des films populaires via une API externe
+- Rechercher des films avec un formulaire
+- Ajouter des films manuellement
+- Visualiser les détails d’un film
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Technologies utilisées
+
+- ⚛️ **React.js** (avec [Vite](https://vitejs.dev/))
+- 📦 **React Router** pour la gestion des routes
+- 🔗 **Axios** pour les appels API
+- 🎨 **Tailwind CSS** / CSS pour le style
+- 🌐 API utilisée : [TMDb (The Movie Database)](https://www.themoviedb.org/)
+
+---
+
+## 📁 Fonctionnalités principales
+
+### 1. 🏠 Page d’accueil (`/`)
+- Affiche les **films populaires** via l'API TMDb.
+
+### 2. 🔍 Page de recherche (`/recherche`)
+- Formulaire de recherche avec mot-clé
+- Affiche les résultats correspondants depuis l’API
+
+### 3. ➕ Ajouter un film (`/ajouter`)
+- Formulaire avec :
+  - Titre (obligatoire)
+  - Description (obligatoire)
+  - Date de sortie (optionnelle)
+- Le film est ajouté localement à la liste
+
+### 4. 📄 Détails d’un film (`/film/:id`)
+- Affiche les informations complètes d’un film sélectionné
+
+---
+
+## ⚙️ Installation du projet
+
+```bash
+# 1. Cloner le projet
+git clone https://github.com/ton-utilisateur/gestionnaire-films.git
+cd gestionnaire-films
+
+# 2. Installer les dépendances
+npm install
+
+# 3. Lancer l'application
+npm run dev

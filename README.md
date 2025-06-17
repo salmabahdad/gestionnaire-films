@@ -62,7 +62,7 @@ L'application utilise l’API gratuite de [The Movie Database (TMDb)](https://ww
 
 ### 🔧 Requête utilisée
 
-Dans le fichier `Home.jsx`, les données sont récupérées via l’appel suivant modifiez YOURKEY par votre cle TMDb :
+Dans le fichier `Home.jsx`, les données sont récupérées via l’appel suivant donc modifiez YOURKEY par votre cle TMDb :
 
 ```js
 axios.get(`https://api.themoviedb.org/3/movie/popular?api_key=YOURKEY&language=fr-FR`)
